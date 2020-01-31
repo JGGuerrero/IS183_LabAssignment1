@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Bio Page</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        html,
+        body {
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        h2 {
+            padding: 20px 0px 15px 0px;
+        }
+
+        p {
+            margin: 10px 0px;
+        }
+
+        .main-header,
+        .main-footer {
+            height: 75px;
+            width: 100vw;
+            background-color: blanchedalmond;
+        }
+
+        .logo-text {
+            display: block;
+            padding: 20px;
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        .main-container {
+            height: calc(100vh - 150px);
+            width: 90vw;
+            margin: 0px auto;
+        }
+
+        .top-section {
+            width: 100%;
+            background-color: #CCC;
+            height: 210px;
+            margin: 10px 0px;
+            overflow: hidden;
+        }
+
+        .top-inner-section {
+            overflow: auto;
+        }
+
+        .bottom-section {
+            width: 100%;
+            background-color: darkseagreen;
+            height: 100%;
+        }
+
+        .sidebar {
+            width: 25%;
+            height: 100%;
+            background-color: #CCC;
+        }
+
+        .pic-container {
+            height: 100%;
+            margin-right: 20px;
+            float: left;
+        }
+
+        .pic-container>img {
+            object-fit: cover;
+            display: block;
+            width: 190px;
+            margin: 10px;
+
+        }
+
+        .sidebar >ul {
+            list-style-type: none;
+        }
+
+        .sidebar > ul > li > a {
+            padding: 15px 20px;
+            display: block;
+            background-color: #ccc;
+            border: 1px solid #f1f1f1;        }
+
+        .footer-text {
+            text-align: center;
+            display: block;
+            padding: 20px;
+        }
+    </style>
+
+
+
+
+</head>
+
+<body>
+    <header class="main-header">
+        <span class="logo-text">
+            Joshuah Guerrero 1 hour 17 minutes
+        </span>
+    </header>
+    <section class="main-container">
+        <div class="top-section">
+            <div class="top-inner-section">
+                <div class="pic-container">
+                    <img src="./img/J.png" class="bio-image" alt="my pic">
+                </div>
+                <div class="bio-description">
+                    <h2>What is Lorem Ipsum?</h2>
+                    <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                        type
+                        and
+                        scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                        leap
+                        into electronic typesetting, remaining essentially unchanged.
+                    </P>
+                    <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                        type
+                        and
+                        scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                        leap
+                        into electronic typesetting, remaining essentially unchanged.
+                    </P>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-section">
+            <aside class="sidebar">
+                <ul class = "list">
+                    <li>
+                        <a>Link 1</a>
+                    </li>
+                    <li>
+                        <a>Link 1</a>
+                    </li>
+                    <li>
+                        <a>Link 1</a>
+                    </li>
+                    <li>
+                        <a>Link 1</a>
+                    </li>
+                </ul>
+            </aside>
+            <div class="gallery">
+                <h2>Gallery</h2>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <footer class="main-footer">
+        <span class="footer-text">Copyright (C) 2019. Created by Joshuah Guerrero</span>
+    </footer>
+</body>
+
+</html>
